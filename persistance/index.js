@@ -1,3 +1,7 @@
+// 77 => 7*7 = 49 => 4*9 = 36 => 3*6 = 18 => 1*8 = 8
+// 4 Iterationen bis länge 1 => per(77) == 4
+// https://www.youtube.com/watch?v=Wim9WJeDTHQ
+
 function per(n){
   let steps = 0, result = n
   while(result.toString().length > 1){
